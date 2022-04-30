@@ -20,12 +20,16 @@
 # Bosque Aleatorio
 Random Forest  o Bosque aleatorio, es un algoritmo popular de aprendizaje automático que pertenece a la técnica de aprendizaje supervisado. Se puede utilizar tanto para problemas de clasificación como de regresión en ML. Se basa en el concepto de aprendizaje en conjunto, que es un proceso de combinación de múltiples clasificadores para resolver un problema complejo y mejorar el rendimiento del modelo.
 Como su nombre indica, "Random Forest es un clasificador que contiene una serie de árboles de decisión en varios subconjuntos del conjunto de datos dado y toma el promedio para mejorar la precisión predictiva de ese conjunto de datos". En lugar de depender de un árbol de decisión, el bosque aleatorio toma la predicción de cada árbol y se basa en los votos mayoritarios de las predicciones, y predice el resultado final.
+
+![](https://static.javatpoint.com/tutorial/machine-learning/images/random-forest-algorithm.png)
+
 El mayor número de árboles en el bosque conduce a una mayor precisión y evita el problema del sobreajuste.
 
 ### Predicción
 Para hacer una predicción en una nueva instancia, un bosque aleatorio debe agregar las predicciones de su conjunto de árboles de decisión. Esta agregación se realiza de manera diferente para la clasificación y la regresión.
 Clasificación: Voto mayoritario. La predicción de cada árbol se cuenta como un voto para una clase. Se predice que la etiqueta será la clase que reciba más votos.
 Regresión: Promediar. Cada árbol predice un valor real. Se predice que la etiqueta es el promedio de las predicciones del árbol.
+![](https://static.javatpoint.com/tutorial/machine-learning/images/random-forest-algorithm2.png)
 
 #### ¿Por qué usar random forest?
 -Lleva menos tiempo de entrenamiento en comparación con otros algoritmos.

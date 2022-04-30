@@ -60,7 +60,7 @@ import org.apache.spark.mllib.tree.model.RandomForestModel
 import org.apache.spark.mllib.util.MLUtils
 
 // Load and parse the data file.
-val data = MLUtils.loadLibSVMFile(sc, "data/mllib/sample_libsvm_data.txt")
+val data = MLUtils.loadLibSVMFile(sc, "sample_libsvm_data.txt")
 // Split the data into training and test sets (30% held out for testing)
 val splits = data.randomSplit(Array(0.7, 0.3))
 val (trainingData, testData) = (splits(0), splits(1))
@@ -91,6 +91,7 @@ println(s"Learned classification forest model:\n ${model.toDebugString}")
 model.save(sc, "target/tmp/myRandomForestClassificationModel")
 val sameModel = RandomForestModel.load(sc, "target/tmp/myRandomForestClassificationModel")
 ```
+![](https://github.com/gregorio1297/RandomForests/Img/Clasi.png)
 
 # Ejemplo Regresion
 
@@ -100,7 +101,7 @@ import org.apache.spark.mllib.tree.model.RandomForestModel
 import org.apache.spark.mllib.util.MLUtils
 
 // Load and parse the data file.
-val data = MLUtils.loadLibSVMFile(sc, "data/mllib/sample_libsvm_data.txt")
+val data = MLUtils.loadLibSVMFile(sc, "sample_libsvm_data.txt")
 // Split the data into training and test sets (30% held out for testing)
 val splits = data.randomSplit(Array(0.7, 0.3))
 val (trainingData, testData) = (splits(0), splits(1))
@@ -131,6 +132,7 @@ println(s"Learned regression forest model:\n ${model.toDebugString}")
 model.save(sc, "target/tmp/myRandomForestRegressionModel")
 val sameModel = RandomForestModel.load(sc, "target/tmp/myRandomForestRegressionModel")
 ```
+![](https://github.com/gregorio1297/RandomForests/Img/Regre.png)
 
 ### Video explicativo
 <https://www.youtube.com/watch?v=jlJ4uKS9D5A>

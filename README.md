@@ -91,7 +91,7 @@ println(s"Learned classification forest model:\n ${model.toDebugString}")
 model.save(sc, "target/tmp/myRandomForestClassificationModel")
 val sameModel = RandomForestModel.load(sc, "target/tmp/myRandomForestClassificationModel")
 ```
-![](https://github.com/gregorio1297/RandomForests/Img/Clasi.png)
+![](https://github.com/gregorio1297/RandomForests/blob/main/Img/Clasi.PNG)
 
 # Ejemplo Regresion
 
@@ -132,7 +132,7 @@ println(s"Learned regression forest model:\n ${model.toDebugString}")
 model.save(sc, "target/tmp/myRandomForestRegressionModel")
 val sameModel = RandomForestModel.load(sc, "target/tmp/myRandomForestRegressionModel")
 ```
-![](https://github.com/gregorio1297/RandomForests/Img/Regre.png)
+![](https://github.com/gregorio1297/RandomForests/blob/main/Img/Regre.PNG)
 
 ### Video explicativo
 <https://www.youtube.com/watch?v=jlJ4uKS9D5A>

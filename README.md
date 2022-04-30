@@ -1,3 +1,4 @@
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Dze8yYYzBPaBVPf7j9Mx9NkHZDDzKXzavCoUnkZuO0xqHG3__mjVJOearB9bEeY4sg&usqp=CAU)
 # Instituto Tecnológico de Tijuana
 ### Nombre de Facultad:
 #### Ingeniería Informática y Ingeniería en Tecnologías de la Información y Comunicación.
@@ -8,7 +9,7 @@
 ### Facilitador:
 #### Jose Christian Romero Hernandez
 ### Alumnos:
-- Garcia Torres Cristopher Arael
+-Garcia Torres Cristopher Arael
 -Rivas Padilla Giselle                               
 -Regalado Lopez Edgar Eduardo	      
 -Guzman Morales Gregorio Manuel
